@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T08:35:23.799Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" version="17.4.6" etag="FgPcGi9rxCjgBGG3bK_T" type="github"><diagram id="EnXYJPloO5oSm4RZ1MNk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-27T08:51:27.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="fGHeMZHnRbMCsP9nlm-P" version="17.4.6" type="github">
+  <diagram id="EnXYJPloO5oSm4RZ1MNk" name="Page-1">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AfxTHvNqEIfWRLB3l7OP-1" target="AfxTHvNqEIfWRLB3l7OP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-1" value="输入卡号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AfxTHvNqEIfWRLB3l7OP-4" target="AfxTHvNqEIfWRLB3l7OP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-4" value="截取前8位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AfxTHvNqEIfWRLB3l7OP-6" target="AfxTHvNqEIfWRLB3l7OP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="277" as="sourcePoint" />
+            <mxPoint x="390" y="367" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-6" value="本地判断是否为村镇新发卡&lt;br&gt;[&#39;62162301&#39;,&#39;62162302&#39;]" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="220" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-10" value="本地赋值" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-12" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="503.5" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AfxTHvNqEIfWRLB3l7OP-13" target="AfxTHvNqEIfWRLB3l7OP-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-13" value="截取前6位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-15" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AfxTHvNqEIfWRLB3l7OP-16" target="AfxTHvNqEIfWRLB3l7OP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AfxTHvNqEIfWRLB3l7OP-16" target="AfxTHvNqEIfWRLB3l7OP-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-16" value="是否为下列卡bin&lt;br&gt;[&#39;940041&#39;,&#39;623118&#39;,&#39;622420&#39;]" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="500" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-18" value="根据卡bin结果赋值" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-20" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="503.5" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AfxTHvNqEIfWRLB3l7OP-21" target="AfxTHvNqEIfWRLB3l7OP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-21" value="等待卡号输完（失焦），调&lt;br&gt;用卡号查询新接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="650" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-23" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfxTHvNqEIfWRLB3l7OP-24" value="根据查询结果赋值" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
